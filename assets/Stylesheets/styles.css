@@ -1,0 +1,195 @@
+/*
+=========================================
+Fonts
+=========================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+span, nav{
+  display: inline-block;
+}
+/*
+=========================================
+Grid
+=========================================
+*/
+*,
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container{
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+/*
+=============================================
+General Styles
+=============================================
+*/
+header, .full, .logos{
+    padding:0 5% ;
+}
+
+.full{
+  min-height: 100vh;
+}
+
+/*
+=============================================
+Header
+=============================================
+*/
+header{
+  background-color: #D2E1D8;
+  width: 100%;
+}
+.navbar{
+  height: 20%;
+  top:0;
+  position: sticky;
+  background-color: #D2E1D8 ;
+  padding: 0 5px;
+  padding: 10px 40px;
+}
+.headbod{
+  position: absolute;
+  top: 30%;
+}
+
+#VayuPure{
+font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 107.4%;
+
+letter-spacing: 0.015em;
+
+color: #425C56;
+}
+
+nav{
+  float: right;
+  margin-top: 1%;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Jost';
+  color: #000;
+  padding-left: 70px;
+}
+
+.Heading{
+font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 108.4%;
+/* or 78px */
+
+letter-spacing: 0.015em;
+
+color: #425C56;
+}
+
+.SubHead{
+  padding-top: 20px;
+  font-family: Jost;
+font-style: normal;
+font-size: 25px;
+font-weight: 300;
+line-height: 110.4%;
+/* or 42px */
+
+letter-spacing: 0.015em;
+
+color: #425C56;
+
+}
+
+.btn{
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Jost;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 108.4%;
+/* identical to box height, or 27px */
+
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+  margin-top: 40px;
+  
+}
+
+.btn-alt{
+  border: 0;
+    background: #425C56;
+    padding: 11px 30px;
+    font-size: 14px;
+}
+.logos{
+  background-color: #405953;
+  min-height: 150px;
+}
+
+.third{
+  background-color: #E9F4EA;
+}

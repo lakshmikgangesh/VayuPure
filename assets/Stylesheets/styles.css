@@ -1,6 +1,6 @@
 /*
 =========================================
-Fonts
+Reset
 =========================================
 */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap');
@@ -86,6 +86,55 @@ header, .full, .logos{
   min-height: 100vh;
 }
 
+body{
+  background-color: #D2E1D8 ;
+}
+
+.bold{
+  font-weight: bold;
+}
+.bolder{
+  font-weight: 500;
+}
+.navbar, .full {
+  padding: 10px 120px;
+}
+/*
+=============================================
+Navigation
+=============================================
+*/
+.navbar{
+  height: 20%;
+  top:0;
+  position: sticky; 
+}
+
+#VayuPure{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 107.4%;
+  
+  letter-spacing: 0.015em;
+  
+  color: #425C56;
+  }
+  
+  nav{
+    float: right;
+    margin-top: 1%;
+  }
+  
+  a{
+    text-decoration: none;
+    font-family: 'Jost';
+    color: #000;
+    padding-left: 70px;
+  }
+
+
 /*
 =============================================
 Header
@@ -95,50 +144,18 @@ header{
   background-color: #D2E1D8;
   width: 100%;
 }
-.navbar{
-  height: 20%;
-  top:0;
-  position: sticky;
-  background-color: #D2E1D8 ;
-  padding: 0 5px;
-  padding: 10px 40px;
-}
+
 .headbod{
   position: absolute;
-  top: 30%;
-}
-
-#VayuPure{
-font-family: 'Jost', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 107.4%;
-
-letter-spacing: 0.015em;
-
-color: #425C56;
-}
-
-nav{
-  float: right;
-  margin-top: 1%;
-}
-
-a{
-  text-decoration: none;
-  font-family: 'Jost';
-  color: #000;
-  padding-left: 70px;
+  top: 28%;
 }
 
 .Heading{
 font-family: Jost;
 font-style: normal;
 font-weight: 500;
-font-size: 55px;
+font-size: 48px;
 line-height: 108.4%;
-/* or 78px */
 
 letter-spacing: 0.015em;
 
@@ -146,17 +163,16 @@ color: #425C56;
 }
 
 .SubHead{
-  padding-top: 20px;
-  font-family: Jost;
-font-style: normal;
-font-size: 25px;
-font-weight: 300;
-line-height: 110.4%;
-/* or 42px */
+  padding-top: 25px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 110.4%;
 
-letter-spacing: 0.015em;
+  letter-spacing: 0.015em;
 
-color: #425C56;
+  color: #425C56;
 
 }
 
@@ -165,30 +181,132 @@ color: #425C56;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: Jost;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 108.4%;
-/* identical to box height, or 27px */
-
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 108.4%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
   margin-top: 40px;
   
 }
 
 .btn-alt{
-  border: 0;
+    font-family: 'Jost';
+    border: 0;
+    font-weight: 200;
     background: #425C56;
     padding: 11px 30px;
-    font-size: 14px;
+    font-size: 17px;
 }
+
+/*
+=============================================
+Section #2
+=============================================
+*/
+.second{
+  background-color: #fff ;
+  display: flex;
+  flex-direction: row;
+}
+
+.bullets{
+  width: 60%;
+}
+
+#VayuPure2{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 108.4%;
+  /* identical to box height, or 78px */
+
+  letter-spacing: 0.015em;
+  padding-top: 50px;
+
+  color: #425C56;
+  }
+
+  #intropara{
+    padding-top: 1rem;
+    font-family: 'Circe';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 130.2%;
+    /* or 39px */
+    color: #405953;
+  }
+
+  .point{
+    padding: 0.5rem;
+  }
+
+  .iconify{
+    height: 40px;
+    width: 40px;
+    margin-top: 1rem;
+
+    color: #425C56;
+
+  }
+  
+  .pointhead{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130.2%;
+    /* identical to box height, or 39px */
+
+    text-transform: uppercase;
+
+    color: #425C56;
+    margin: 0 25px;
+
+    position: relative;
+    top: -1rem;
+  }
+
+  .pointbody{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 126.7%;
+    /* or 28px */
+
+    letter-spacing: 0.015em;
+
+    color: #000000;
+
+    margin: 0 74px;
+
+    position: relative;
+    top: -0.2rem;
+  }
+.circles{
+  width: 40%;
+}
+
+/*
+=============================================
+Logos Section
+=============================================
+*/
 .logos{
   background-color: #405953;
   min-height: 150px;
 }
+
+/*
+=============================================
+Section #3
+=============================================
+*/
 
 .third{
   background-color: #E9F4EA;

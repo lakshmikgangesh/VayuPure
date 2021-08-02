@@ -97,7 +97,7 @@ body{
   font-weight: 500;
   display: inline;
 }
-.navbar, .full, footer{
+.navbar, .full, footer,header{
   padding: 10px 120px;
 }
 /*
@@ -151,12 +151,12 @@ Header
 */
 header{
   background-color: #D2E1D8;
-  width: 100%;
+  min-height: 91vh;
 }
 
 .headbod{
   position: absolute;
-  top: 28%;
+  top: 34%;
 }
 
 .Heading{
@@ -177,7 +177,7 @@ color: #425C56;
   font-style: normal;
   font-size: 25px;
   font-weight: 300;
-  line-height: 110.4%;
+  line-height: 120.4%;
 
   letter-spacing: 0.015em;
 
@@ -185,30 +185,6 @@ color: #425C56;
 
 }
 
-.btn{
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 25px;
-  line-height: 108.4%;
-  /* identical to box height, or 27px */
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-  margin-top: 40px;
-  
-}
-
-.btn-alt{
-    font-family: 'Jost';
-    border: 0;
-    font-weight: 200;
-    background: #425C56;
-    padding: 11px 30px;
-    font-size: 17px;
-}
 
 /*
 =============================================
@@ -217,88 +193,35 @@ Section #2
 */
 .second{
   background-color: #fff ;
-  display: flex;
-  flex-direction: row;
 }
 
-.bullets{
-  width: 60%;
-}
-
-#VayuPure2{
-  font-family: 'Jost', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 108.4%;
-  /* identical to box height, or 78px */
-
-  letter-spacing: 0.015em;
-  padding-top: 50px;
-
-  color: #425C56;
-  }
-
-  #intropara{
-    padding-top: 1rem;
-    font-family: 'Circe';
+.heading2{
+    font-family: 'Jost';
     font-style: normal;
-    font-size: 20px;
-    font-weight: 350;
-    line-height: 130.2%;
-    /* or 39px */
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 104px;
+    text-align: center;
+    padding-bottom: 40px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
     color: #405953;
-  }
+}
 
-  .point{
-    padding: 0.5rem;
-  }
-
-  .iconify{
-    height: 40px;
-    width: 40px;
-    margin-top: 1rem;
-
-    color: #425C56;
-
-  }
-  
-  .pointhead{
+.paras2{
+    padding: 0 15%;
     font-family: 'Circe';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 130.2%;
-    /* identical to box height, or 39px */
+    text-align: justify;
+    line-height: 30px;
 
-    text-transform: uppercase;
+    color: #405953;
+    
 
-    color: #425C56;
-    margin: 0 25px;
-
-    position: relative;
-    top: -1rem;
-  }
-
-  .pointbody{
-    font-family: 'Circe';
-    font-style: normal;
-    font-weight: 350;
-    font-size: 15px;
-    line-height: 126.7%;
-    /* or 28px */
-
-    letter-spacing: 0.015em;
-
-    color: #000000;
-
-    margin: 0 74px;
-
-    position: relative;
-    top: -0.2rem;
-  }
-.circles{
-  width: 40%;
 }
 
 /*
@@ -307,82 +230,182 @@ Logos Section
 =============================================
 */
 .logos{
-  background-color: #405953;
-  min-height: 150px;
-  text-align: center;
-}
+    background-color: #405953;
+    min-height: 150px;
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 51px;
+    letter-spacing: 0.015em;
+    padding: 4% 0;
 
-.image{
-  height: 60px;
-  width: auto;
-  margin: 40px;
-}
+    color: #FFFFFF;
 
-/*
-=============================================
-Section #3
-=============================================
-*/
+  }
+  
+  /*
+  =============================================
+  Section #3
+  =============================================
+  */
+  
+  .third{
+    background-color: #F0F1F3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .img{
+    width: 35%;
+  }
+  
+  .para{
+    width: 65%;
+    padding: 30px 50px;
+  }
 
-.third{
-  background-color: #E9F4EA;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  #ourgoals{
+        text-align: center;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        /* identical to box height */
 
-.block{
-  width: 50%;
-}
+        color: #405953;
+  }
 
-.para{
-  font-family: Circe;
-  font-style: normal;
-  font-weight: 350;
-  font-size: 25px;
-  line-height: 128.4%;
-  /* or 49px */
+  #goalsintro{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    
+    color: #000000;
+  }
+  
+  .iconify{
+    height: 25px;
+    width: 25px;
+    margin-top: 1.25rem;
 
-  text-align: justify;
-  letter-spacing: 0.015em;
+    color: #535f5c;
 
-  color: #000000;
-  padding-top: 7%;
-}
+  }
+  
+  .pointhead{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 39px */
 
-/*
-=============================================
-Footer
-=============================================
-*/
+    color: #000;
+    margin: 0 25px;
 
-footer{
-  height: 20rem;
-  background: #F0F1F3;
-  box-shadow: 0px -11px 59px rgba(0, 0, 0, 0.05);
-  padding-top: 2rem;
-}
+    display: initial;
 
-#VayuPure3{
-  font-family: Jost;
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 130.4%;
-/* identical to box height, or 81px */
+    
+  }
 
-text-align: justify;
-letter-spacing: 0.015em;
+  ul{
+      list-style-type: none;
+  }
 
-color: #425C56;
-padding-bottom: 30px;
+  ul li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    padding: 0 10px 0 0;
+    }
 
-position: relative;
-left: -80px;
-}
+    /*
+    =============================================
+    Section #4 - Our Team
+    =============================================
+    */
 
-.foot{
-  color: #B7B7B7;
-  margin-top: 30px;
-  margin-right: 30px;
-}
+    .fourth{
+        background-color: white;
+        padding-top: 3%;
+        text-align: center;
+    }
+
+    .prof{
+        display: inline-block;
+        padding: 2% 5%;
+    }
+
+    .pic{
+        width: 150px;
+        height: 150px;
+
+        background: url(1.jpg);
+        border: 8px solid #F0F1F3;
+        border-radius: 121px;
+    }
+
+    .name{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .designation{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+
+    /*
+    =============================================
+    Footer
+    =============================================
+    */
+
+    footer{
+    height: 12rem;
+    background: #F0F1F3;
+    box-shadow: 0px -11px 59px rgba(0, 0, 0, 0.05);
+    padding-top: 1rem;
+    }
+
+    #VayuPure3{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130.4%;
+    /* identical to box height, or 81px */
+
+    text-align: justify;
+    letter-spacing: 0.015em;
+
+    color: #425C56;
+    padding-bottom: 30px;
+
+    position: relative;
+    left: -80px;
+    }
+
+    .foot{
+    color: #B7B7B7;
+    margin-top: 30px;
+    margin-right: 30px;
+    }

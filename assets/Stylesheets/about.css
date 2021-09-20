@@ -192,9 +192,24 @@ Section #2
 =============================================
 */
 .second{
-  background-color: #fff ;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
 }
 
+.demo-bg{
+  opacity: 0.05;
+  position: absolute;
+  right: -20%;
+  top: -40%;
+  width: 50%;
+  height: auto;
+
+}
+
+svg{
+  opacity: 0.1;
+}
 .heading2{
     font-family: 'Jost';
     font-style: normal;

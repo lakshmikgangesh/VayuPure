@@ -54,6 +54,9 @@ table {
 span, nav{
   display: inline-block;
 }
+html {
+  font-size:12px;
+}
 /*
 =========================================
 Grid
@@ -71,6 +74,38 @@ Grid
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar, .full, footer{
+    padding: 5% !important;
+  }
+  .circles{
+      display: none;
+  }
+  .bullets{
+    width: 100% !important;
+  }
+  .second{
+    display: block;
+  }
+  header{
+    background-image: none !important;
+  }
+  .block{
+    width: 100% !important;
+  }
+  html{
+    font-size: 10px !important;
+  }
+
+  #tackle{
+    left: 3rem !important;
+    top: -3rem;
+  }
+  #tacklesub{
+    top:-2rem;
+  }
 }
 
 /*
@@ -119,7 +154,7 @@ Navigation
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 2rem;
   line-height: 107.4%;
   
   letter-spacing: 0.015em;
@@ -127,7 +162,7 @@ Navigation
   color: #425C56;
 
   position: relative;
-  left: -80px;
+  left: -6.67rem;
   }
   
   nav{
@@ -138,7 +173,7 @@ Navigation
     text-decoration: none;
     font-family: 'Jost';
     color: #000;
-    padding-left: 70px;
+    padding-left: 5.83rem;
   }
 
   
@@ -152,6 +187,10 @@ Header
 header{
   background-color: #D2E1D8;
   width: 100%;
+  background-image: url("../Images/1.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat:no-repeat;
 }
 
 .headbod{
@@ -163,7 +202,7 @@ header{
 font-family: Jost;
 font-style: normal;
 font-weight: 500;
-font-size: 48px;
+font-size: 4rem;
 line-height: 108.4%;
 
 letter-spacing: 0.015em;
@@ -175,7 +214,7 @@ color: #425C56;
   padding-top: 25px;
   font-family: 'Jost';
   font-style: normal;
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 110.4%;
 
@@ -192,7 +231,7 @@ color: #425C56;
   display: inline-block;
   font-style: normal;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 2rem;
   line-height: 108.4%;
   /* identical to box height, or 27px */
   letter-spacing: 0.06em;
@@ -207,7 +246,7 @@ color: #425C56;
     font-weight: 200;
     background: #425C56;
     padding: 11px 30px;
-    font-size: 17px;
+    font-size: 1.25rem;
 }
 
 /*
@@ -229,7 +268,7 @@ Section #2
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 4rem;
   line-height: 108.4%;
   /* identical to box height, or 78px */
 
@@ -243,7 +282,7 @@ Section #2
     padding-top: 1rem;
     font-family: 'Circe';
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.67rem;
     font-weight: 350;
     line-height: 130.2%;
     /* or 39px */
@@ -255,8 +294,8 @@ Section #2
   }
 
   .iconify{
-    height: 40px;
-    width: 40px;
+    height: 3.33rem;
+    width: 3.33rem;
     margin-top: 1rem;
 
     color: #425C56;
@@ -267,7 +306,7 @@ Section #2
     font-family: 'Circe';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.66rem;
     line-height: 130.2%;
     /* identical to box height, or 39px */
 
@@ -284,7 +323,7 @@ Section #2
     font-family: 'Circe';
     font-style: normal;
     font-weight: 350;
-    font-size: 15px;
+    font-size: 1.25rem;
     line-height: 126.7%;
     /* or 28px */
 
@@ -339,7 +378,7 @@ Section #3
   font-family: Circe;
   font-style: normal;
   font-weight: 350;
-  font-size: 25px;
+  font-size: 2rem;
   line-height: 128.4%;
   /* or 49px */
 
@@ -357,7 +396,7 @@ Footer
 */
 
 footer{
-  height: 20rem;
+  height: 19rem;
   background: #F0F1F3;
   box-shadow: 0px -11px 59px rgba(0, 0, 0, 0.05);
   padding-top: 2rem;
@@ -367,7 +406,7 @@ footer{
   font-family: Jost;
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 4rem;
 line-height: 130.4%;
 /* identical to box height, or 81px */
 
@@ -378,7 +417,7 @@ color: #425C56;
 padding-bottom: 30px;
 
 position: relative;
-left: -80px;
+left: -6.67rem;
 }
 
 .foot{

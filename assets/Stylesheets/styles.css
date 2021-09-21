@@ -339,6 +339,9 @@ Section #2
   }
 .circles{
   width: 40%;
+  background-image: url('../Images/bubble.JPG');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*
@@ -369,6 +372,9 @@ Section #3
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .block{
@@ -381,6 +387,7 @@ Section #3
   font-weight: 350;
   font-size: 2rem;
   line-height: 128.4%;
+  padding-left: 50px;
   /* or 49px */
 
   text-align: justify;
@@ -388,6 +395,14 @@ Section #3
 
   color: #000000;
   padding-top: 7%;
+}
+
+.img{
+  padding-top: 0;
+  background-image: url("../Images/mancovid.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*

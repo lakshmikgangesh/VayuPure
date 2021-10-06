@@ -1,0 +1,340 @@
+/*
+=========================================
+Reset
+=========================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+span, nav{
+  display: inline-block;
+}
+html {
+  font-size:12px;
+}
+/*
+=========================================
+Grid
+=========================================
+*/
+*,
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container{
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar, .full, footer{
+    padding: 5% !important;
+  }
+  nav{
+    margin-top: -5% !important;
+  }
+  .circles{
+      display: none;
+  }
+  .bullets{
+    width: 100% !important;
+  }
+  .second{
+    display: block;
+  }
+  header{
+    background-image: none !important;
+  }
+  .block{
+    width: 100% !important;
+  }
+  html{
+    font-size: 10px !important;
+  }
+
+  #tackle{
+    left: 3rem !important;
+    top: -3rem;
+  }
+  #tacklesub{
+    top:-2rem;
+  }
+  .footernav{
+    padding-left: 2rem !important;
+  }
+  .para{
+    padding-left: 0 !important;
+  }
+  .img{
+    display: none;
+  }
+  .third
+  {
+    min-height: max-content !important;
+  }
+
+  footer{
+    height: fit-content !important;
+    padding: 2rem 6rem !important;
+  }
+
+  .fundlogo, #fundinghead{
+      display: none !important;
+      top: 0 !important;
+      left: 0 !important;
+      align-items: center !important;
+  }
+
+  .foot{
+    position: relative;
+    left: 1rem;
+  }
+
+  #VayuPure3{
+    display: none;
+  }
+
+  .headerimg{
+      display: none;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 1366px) and (max-height: 1024px) and (orientation:landscape) {
+  /*.full{
+    min-height: 70vh !important;
+  }*/
+}
+
+@media all and (device-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .full{
+    min-height: 40vh !important;
+  }
+  .headbod{
+    top: 15% !important;
+  }
+  .full, footer{
+    padding: 5% !important;
+  }
+  .second{
+    display: block;
+  }
+  .image{
+    height: 40px !important;
+  }
+  .block{
+    width: 100% !important;
+  }
+  html{
+    font-size: 10px !important;
+  }
+
+  #tackle{
+    top: -2rem;
+  }
+  #tacklesub{
+    top:-1rem;
+  }
+  .footernav{
+    padding-left: 2rem !important;
+  }
+  .para{
+    padding-left: 0 !important;
+  }
+  .img{
+    display: none;
+  }
+  .third
+  {
+    min-height: max-content !important;
+  }
+  .logos{
+    min-height: fit-content !important;
+  }
+}
+
+/*
+=============================================
+General Styles
+=============================================
+*/
+header, .full, .logos{
+    padding:0 5% ;
+}
+
+.full{
+  min-height: 100vh;
+}
+
+body{
+  background-color: #D2E1D8 ;
+}
+
+.bold{
+  font-weight: bold;
+}
+.bolder{
+  font-weight: 500;
+  display: inline;
+}
+.navbar, .full, footer{
+  padding: 10px 120px;
+}
+
+.iconify{
+    height: 3.33rem;
+    width: 3.33rem;
+    margin-top: 1rem;
+
+    color: #425C56;
+
+  }
+/*
+=============================================
+Navigation
+=============================================
+*/
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top:0;
+  position: sticky; 
+  z-index: 1;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.07);
+}
+
+#VayuPure{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 107.4%;
+  
+  letter-spacing: 0.015em;
+  
+  color: #425C56;
+
+  position: relative;
+  left: -6.67rem;
+  }
+  
+  nav{
+    float: right;
+    margin-top: 0.5%;
+  }
+  a{
+    text-decoration: none;
+    font-family: 'Jost';
+    color: #000;
+    padding-left: 5.83rem;
+    font-size: 1.3rem;
+  }
+/*
+=============================================
+Footer
+=============================================
+*/
+
+footer{
+  height: 19rem;
+  background: #F0F1F3;
+  box-shadow: 0px -11px 59px rgba(0, 0, 0, 0.05);
+  padding-top: 2rem;
+}
+
+#VayuPure3{
+  font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 4rem;
+line-height: 130.4%;
+/* identical to box height, or 81px */
+
+text-align: justify;
+letter-spacing: 0.015em;
+
+color: #425C56;
+padding-bottom: 30px;
+
+position: relative;
+left: -6.67rem;
+}
+
+.foot{
+  color: #B7B7B7;
+  margin-top: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+#fundinghead{
+  font-family: 'Jost';
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 130.4%;
+
+  text-align: justify;
+  letter-spacing: 0.06em;
+
+  color: #425C56;
+  position: relative;
+  left: 46rem;
+  top: -6rem
+}
+
+.fundlogo{
+  height: 4rem;
+  width: fit-content;
+  position: relative;
+  left: 70rem;
+  top: -5rem;
+}

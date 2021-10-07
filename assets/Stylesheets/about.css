@@ -19,6 +19,7 @@ header{
 .headbod{
   position: absolute;
   top: 34%;
+  padding: 0px 4% ;
 }
 
 .headerimg{
@@ -30,24 +31,24 @@ header{
 }
 
 .Heading{
-font-family: Jost;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 108.4%;
-
-letter-spacing: 0.015em;
-
-color: #425C56;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  
+  letter-spacing: 0.015em;
+  
+  color: #425C56;
 }
 
 .SubHead{
+  width: 55%;
   padding-top: 25px;
   font-family: 'Jost';
   font-style: normal;
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: 300;
-  line-height: 120.4%;
+  line-height: 110.4%;
 
   letter-spacing: 0.015em;
 
@@ -65,6 +66,7 @@ Section #2
   overflow: hidden;
   position: relative;
   background-color: white;
+  padding-top: 6rem;
 }
 
 .demo-bg{
@@ -81,8 +83,7 @@ Section #2
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 104px;
+    font-size: 4rem;
     text-align: center;
     padding-bottom: 40px;
     /* identical to box height */
@@ -97,7 +98,7 @@ Section #2
     font-family: 'Circe';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.67rem;
     text-align: justify;
     line-height: 30px;
 
@@ -118,7 +119,7 @@ Logos Section
     font-family: 'Jost';
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2rem;
     line-height: 51px;
     letter-spacing: 0.015em;
     padding: 4% 0;
@@ -143,6 +144,10 @@ Logos Section
     padding-bottom: 0;
     padding-right: 0px;
   }
+
+  svg{
+    height: 2rem !important;
+  }
   
   .img{
     width: 40%;
@@ -162,7 +167,7 @@ Logos Section
         font-family: 'Jost';
         font-style: normal;
         font-weight: 500;
-        font-size: 48px;
+        font-size: 4rem;
         /* identical to box height */
 
         color: #405953;
@@ -172,7 +177,7 @@ Logos Section
     font-family: 'Circe';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 2rem;
     text-align: center;
     line-height: 30px;
     
@@ -184,7 +189,7 @@ Logos Section
     font-family: 'Circe';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.67rem;
     line-height: 30px;
     /* identical to box height, or 39px */
 
@@ -236,7 +241,7 @@ Logos Section
         font-family: 'Jost';
         font-style: normal;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 1.67rem;
         line-height: 33px;
         text-align: center;
 
@@ -247,7 +252,7 @@ Logos Section
         font-family: 'Jost';
         font-style: normal;
         font-weight: 300;
-        font-size: 15px;
+        font-size: 1.25rem;
         line-height: 20px;
         text-align: center;
 

@@ -103,6 +103,10 @@ Grid
     font-family: 'Jost';
   }
 
+  .SubHead{
+      width: 90% !important;
+  }
+
   #tackle{
     left: 3rem !important;
     top: -3rem;
@@ -111,10 +115,11 @@ Grid
     top:-2rem;
   }
   .footernav{
-    padding-left: 2rem !important;
+    padding-left: 1rem !important;
   }
   .para{
-    padding-left: 0 !important;
+    padding: 1rem !important;
+    width: auto !important;
   }
   .img{
     display: none;
@@ -189,7 +194,7 @@ Grid
     padding-left: 2rem !important;
   }
   .para{
-    padding-left: 0 !important;
+    padding: 1rem !important;
   }
   .img{
     display: none;
@@ -294,7 +299,7 @@ footer{
 }
 
 #VayuPure3{
-  font-family: Jost;
+  font-family: 'Jost';
 font-style: normal;
 font-weight: 500;
 font-size: 4rem;

@@ -18,7 +18,7 @@ header{
 }
 
 .Heading{
-font-family: Jost;
+font-family: 'Jost';
 font-style: normal;
 font-weight: 500;
 font-size: 4rem;
@@ -30,6 +30,7 @@ color: #425C56;
 }
 
 .SubHead{
+  width: 55%;
   padding-top: 25px;
   font-family: 'Jost';
   font-style: normal;
@@ -60,12 +61,14 @@ color: #425C56;
 }
 
 .btn-alt{
+    display: block;
     font-family: 'Jost';
     border: 0;
     font-weight: 200;
     background: #425C56;
     padding: 11px 30px;
     font-size: 1.25rem;
+    width: 13rem;
 }
 
 /*

@@ -25,7 +25,7 @@ header{
 }
 
 .Heading{
-font-family: Jost;
+font-family: 'Jost';
 font-style: normal;
 font-weight: 400;
 font-size: 4rem;
@@ -37,10 +37,10 @@ color: #425C56;
 }
 
 .SubHead{
-  padding-top: 25px;
+  padding-top: 2rem;
   font-family: 'Circe';
   font-style: normal;
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 120.4%;
 
@@ -65,7 +65,7 @@ Section #2
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 2rem;
     line-height: 104px;
     text-align: center;
     padding-bottom: 40px;

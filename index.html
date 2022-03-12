@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PureVayu</title>
+    <link rel="icon" type="image/gif" href="assets\Images\PureVayu2.png" />
     <link rel="stylesheet" href="assets\Stylesheets\util.css">
     <link rel="stylesheet" href="assets\Stylesheets\styles.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -28,7 +29,7 @@
                 <br>
                 <span class="SubHead"><span class="bolder">Bio-aerosol protection system</span> to eliminate air-borne pathogens and make the confined space safer for the common public to access.</span>
                 
-                <a class="btn btn-alt" href="#second" target="_blank">Learn More</a>
+                <button class="btn btn-alt" onclick="scrollFunction1()"> Learn More </button>
         </div>
     </header>
     <section class="full second" id="second">
@@ -102,5 +103,15 @@
 
 
     </footer>
+    <script>
+         function scrollFunction1() {
+        let e = document.getElementById("second");
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
+    </script>
 </body>
 </html>

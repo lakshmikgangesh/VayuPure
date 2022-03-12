@@ -282,7 +282,7 @@ Navigation
     text-decoration: none;
     font-family: 'Jost';
     color: #000;
-    padding-left: 5.83rem;
+    margin-left: 5.83rem;
     font-size: 1.3rem;
   }
 /*
@@ -300,10 +300,10 @@ footer{
 
 #VayuPure3{
   font-family: 'Jost';
-font-style: normal;
-font-weight: 500;
-font-size: 4rem;
-line-height: 130.4%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 130.4%;
 /* identical to box height, or 81px */
 
 text-align: justify;
